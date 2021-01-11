@@ -1,4 +1,4 @@
-h2 {
+h2:hover {
   color: green;
 }
 .subtitle {
@@ -6,6 +6,27 @@ h2 {
 }
 
 #contact {
+  color: red;
+}
+
+li:first-child {
+  color: steelblue;
+}
+li:last-child {
+  color: blueviolet;
+}
+li:nth-child(3) {
+  color: brown;
+}
+
+li:only-child {
+  color: darkorange;
+}
+
+#google-link:link {
+  color: blue;
+}
+#google-link:visited {
   color: red;
 }
 
