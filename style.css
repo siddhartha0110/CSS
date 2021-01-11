@@ -1,9 +1,12 @@
-.title {
-  color: red;
+h2 {
+  color: green;
 }
 .subtitle {
   color: blue;
 }
-#contact-us {
-  color: green;
+
+#contact {
+  color: red;
 }
+
+/* Specificity Rule:- Inline Styles > ID > Class > Basic Selector */
