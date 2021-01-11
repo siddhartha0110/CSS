@@ -9,7 +9,7 @@ h2:hover {
   color: red;
 }
 
-li:first-child {
+/* li:first-child {
   color: steelblue;
 }
 li:last-child {
@@ -21,13 +21,31 @@ li:nth-child(3) {
 
 li:only-child {
   color: darkorange;
+} */
+
+/* Color every a followed by h2. Completely separate elements */
+h2 + a {
+  color: red;
+}
+/* Every button followed by a textarea having the same parent */
+textarea ~ button {
+  color: purple;
 }
 
-#google-link:link {
+/* Every li inside ul (Direct Child) */
+ul > li {
+  color: blue;
+}
+
+/* Any li that goes upto ul */
+ul li {
+  color: green;
+}
+
+/* #google-link:link {
   color: blue;
 }
 #google-link:visited {
   color: red;
-}
-
+} */
 /* Specificity Rule:- Inline Styles > ID > Class > Basic Selector */
