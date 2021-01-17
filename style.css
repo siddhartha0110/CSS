@@ -1,6 +1,19 @@
+body {
+  background: rgb(204, 229, 255);
+}
 #title {
   color: rgb(186, 133, 9);
 }
 .subtitle {
   color: rgb(219, 168, 50);
+}
+
+#service-image {
+  height: 400px;
+  width: 70%;
+
+  background-image: url("./img/img-2.jpeg");
+  /* background-repeat: no-repeat; */
+  background-color: steelblue;
+  background-size: cover;
 }
