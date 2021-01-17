@@ -1,7 +1,7 @@
 h2:hover {
   color: green;
 }
-.subtitle {
+h2[class="subtitle"] {
   color: blue;
 }
 
@@ -41,6 +41,10 @@ ul > li {
 ul li {
   color: green;
 }
+/* ^-> starts with , $->ends with, *->contains  */
+img[src^="./img/"] {
+  border: 4px solid black;
+}
 
 /* #google-link:link {
   color: blue;
@@ -49,3 +53,7 @@ ul li {
   color: red;
 } */
 /* Specificity Rule:- Inline Styles > ID > Class > Basic Selector */
+
+h2[class~="article-subtitle"] {
+  background: gray;
+}
