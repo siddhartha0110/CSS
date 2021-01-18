@@ -12,8 +12,34 @@ body {
   height: 400px;
   width: 70%;
 
-  background-image: url("./img/img-2.jpeg");
+  /* background-image: url("./img/img-2.jpeg"); */
   /* background-repeat: no-repeat; */
-  background-color: steelblue;
+  /* background-color: steelblue; */
   background-size: cover;
+
+  /* Linear Gradient */
+
+  /* background: linear-gradient(to right, red, green, steelblue, blue); */
+
+  /* background: linear-gradient(
+    to right,
+    rgb(46, 109, 191),
+    rgba(46, 109, 191, 0.2)
+  ); */
+
+  /* background: linear-gradient(
+    to top,
+    rgb(46, 109, 191),
+    rgba(46, 109, 191, 0.2)
+  ); */
+
+  /* background: linear-gradient(
+    to bottom right,
+    rgb(46, 109, 191),
+    rgba(46, 109, 191, 0.2)
+  ); */
+
+  /* Radial Gradient */
+
+  background: radial-gradient(circle, violet 30%, indigo 40%, blue 10%);
 }
