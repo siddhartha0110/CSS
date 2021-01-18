@@ -1,45 +1,31 @@
 body {
-  background: rgb(204, 229, 255);
+  background: linear-gradient(
+    to top,
+    rgb(46, 109, 191),
+    rgba(46, 109, 191, 0.2)
+  );
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.1em;
+  font-family: "Yusei Magic", sans-serif;
 }
 #title {
   color: rgb(186, 133, 9);
+  font-weight: 500;
 }
 .subtitle {
   color: rgb(219, 168, 50);
 }
 
 #service-image {
-  height: 400px;
-  width: 70%;
-
-  /* background-image: url("./img/img-2.jpeg"); */
-  /* background-repeat: no-repeat; */
-  /* background-color: steelblue; */
-  background-size: cover;
-
-  /* Linear Gradient */
-
-  /* background: linear-gradient(to right, red, green, steelblue, blue); */
-
-  /* background: linear-gradient(
-    to right,
-    rgb(46, 109, 191),
-    rgba(46, 109, 191, 0.2)
-  ); */
-
-  /* background: linear-gradient(
-    to top,
-    rgb(46, 109, 191),
-    rgba(46, 109, 191, 0.2)
-  ); */
-
-  /* background: linear-gradient(
-    to bottom right,
-    rgb(46, 109, 191),
-    rgba(46, 109, 191, 0.2)
-  ); */
-
-  /* Radial Gradient */
-
+  height: 450px;
+  width: 60%;
   background: radial-gradient(circle, violet 30%, indigo 40%, blue 10%);
+}
+.link {
+  text-decoration: underline;
+}
+
+.italics {
+  font-style: italic;
 }
