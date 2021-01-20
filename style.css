@@ -21,6 +21,9 @@ body {
   height: 450px;
   width: 60%;
   background: radial-gradient(circle, violet 30%, indigo 40%, blue 10%);
+  border: 5px solid rgb(28, 28, 79);
+  padding: 20px;
+  margin: 10px auto;
 }
 .link {
   text-decoration: underline;
@@ -28,4 +31,17 @@ body {
 
 .italics {
   font-style: italic;
+}
+
+#about-us-img {
+  height: 300px;
+  width: 60%;
+  border: 3px solid black;
+  padding: 5px;
+}
+.table-info {
+  height: 50px;
+  width: 40%;
+  margin: 20px auto;
+  padding: 5px;
 }
