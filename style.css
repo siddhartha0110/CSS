@@ -82,7 +82,7 @@ body {
   grid-template-rows: auto auto;
   /* row-gap: 100px; */
 
-  gap: 150px 100px;
+  /* gap: 150px 100px; */
 
   /* justify-content: space-around;
   align-content: space-evenly; */
@@ -90,9 +90,9 @@ body {
 .grid-item {
   width: 70px;
   line-height: 30px;
-  border: 1px solid;
   margin: 10px;
-  padding: 1px;
+
+  border: 1px solid;
   font-size: 20px;
   text-align: center;
 }
