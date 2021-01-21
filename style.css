@@ -70,3 +70,29 @@ body {
   padding: 2px;
   border: 1px solid;
 }
+
+.grid-container {
+  background-color: antiquewhite;
+  height: 500px;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* column-gap: 150px; */
+
+  grid-template-rows: auto auto;
+  /* row-gap: 100px; */
+
+  gap: 150px 100px;
+
+  /* justify-content: space-around;
+  align-content: space-evenly; */
+}
+.grid-item {
+  width: 70px;
+  line-height: 30px;
+  border: 1px solid;
+  margin: 10px;
+  padding: 1px;
+  font-size: 20px;
+  text-align: center;
+}
